@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8"/>
+<title>新建计划书</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<link href="../../assets1/global/plugins/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+<!-- BEGIN PAGE STYLES -->
+<link href="../../assets1/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="../../assets1/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets1/admin/layout/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color"/>
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico"/>
+<style>
+
+    body{   	
+        font-size:1em !important;
+    }
+
+    #icon-btn i{
+    	color: #fff;
+    	font-size: 1.7em;
+    }
+
+	#user-logo{
+    	height:150px;
+    	margin-top: 15px;
+    }
+	#user-logo p,#user-logo .logo-img,#user-logo .logo-img1{
+		text-align: center;
+		color: #fff;
+	}
+	#user-logo .logo-img{
+		margin-bottom: 10px;
+	}
+	#user-logo p{
+		margin-top: 10px;
+	}
+	#user-logo p i{
+		font-size: 1.6em;
+	}
+
+	.dashboard-stat{
+		background: #fff;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+	}
+
+	.dashboard-stat .dashtitle{
+		height: 45px;
+		background-color: #4593D6;
+		border-radius: 4px 4px 0 0 !important;
+		text-align: center;
+		line-height: 45px;
+		color: #fff;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	.container-box{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.special-input{
+		width:80px;
+	}
+
+	label{
+		font-size:1em;
+	}
+
+	.wider{
+		width: 100px !important;
+	}
+
+	.special{
+		width: 50px !important;
+	}
+
+	#mTable th{
+		text-align:center !important
+	}
+
+	th{
+		font-weight: normal !important;
+	}
+
+</style>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-quick-sidebar-over-content page-sidebar-closed-hide-logo page-container-bg-solid">
+<!-- BEGIN HEADER -->
+<div class="page-header -i navbar navbar-fixed-top">
+	<!-- BEGIN HEADER INNER -->
+	<div class="page-header-inner">
+		<!-- BEGIN LOGO -->
+		<div class="page-logo">
+			<a href="index.html">
+			  <!-- <img src="#" class="logo-default" /> -->
+			</a>
+			<div class="menu-toggler sidebar-toggler hide">
+			</div>
+		</div>
+		<!-- END LOGO -->
+		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+		<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+		</a>
+		<!-- END RESPONSIVE MENU TOGGLER -->
+		<!-- BEGIN TOP NAVIGATION MENU -->
+		<!-- <div class="top-menu">
+			<ul class="nav navbar-nav pull-right">
+				<li class="dropdown dropdown-user">
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<img alt="" class="img-circle" src="../../assets1/admin/layout/img/avatar3_small.jpg"/>
+					<span class="username username-hide-on-mobile">
+					Nick </span>
+					<i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-default">
+						
+						<li>
+							<a href="page_todo.html">
+							<i class="icon-rocket"></i> My Tasks <span class="badge badge-success">
+							7 </span>
+							</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="extra_lock.html">
+							<i class="icon-lock"></i> Lock Screen </a>
+						</li>
+						<li>
+							<a href="login.html">
+							<i class="icon-key"></i> Log Out </a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div> -->
+		<!-- END TOP NAVIGATION MENU -->
+	</div>
+	<!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+	<!-- BEGIN SIDEBAR -->
+	<div class="page-sidebar-wrapper">
+		<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+		<!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+		<div class="page-sidebar navbar-collapse collapse">
+			<!-- BEGIN SIDEBAR MENU -->
+			<ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+				<li>
+					<div id="user-logo" class="user-logo">
+	                    <div class="logo-img">
+	                       <img src="../../assets1/admin/layout/img/logo2.png" width="150px"/>
+	                    </div>
+	                    <div class="logo-img1 hide" style="margin:25px 0">
+	                       <img src="../../assets1/admin/layout/img/logo1.png" width="25px"/>
+	                    </div>
+	                    <p class="aaa" style="margin-bottom:35px;">同方全球计划书系统</p>
+	                    <p class="bbb">范彬彬</p>
+	                    <p><i class="glyphicon glyphicon-off"></i></p>
+				    </div>
+				</li>
+				<!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+				<li class="sidebar-toggler-wrapper" style="margin-bottom:15px;margin-top:10px;">
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+					<div class="sidebar-toggler">
+					  <span id="icon-btn">
+					  	<i class="icon-arrow-left"></i>
+		    	    	<i class="icon-arrow-right hide"></i>
+					  </span>
+					</div>
+					<!-- END SIDEBAR TOGGLER BUTTON -->
+				</li>
+				<li class="active">
+					<a href="index.html">
+					  <i class="icon-tag"></i>
+					  <span class="title">新建计划书</span>
+					  <span class="selected"></span>
+					</a>
+				</li>
+				<li>
+					<a href="list.html">
+					<i class="icon-list"></i>
+					<span class="title">计划书列表</span>
+					</a>
+				</li>
+				
+			</ul>
+			<!-- END SIDEBAR MENU -->
+		</div>
+	</div>
+	<!-- END SIDEBAR -->
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+		<div class="page-content">
+
+			<!-- 客户信息 -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					
+                    <div class="dashboard-stat" style="padding:0 0 20px 0"><!--开始-->
+						<div class="dashtitle">
+							客户信息
+						</div>
+
+						<div class="container-box">	
+                          <h4 style="width:100px;height:25px;border-bottom:1px solid #ddd;">被保人信息</h4>
+
+                          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                           <form class="form-horizontal">
+                            <div class="form-body">
+
+                              <div class="form-group">
+								<div class="form-filed">
+									<label class="col-md-2 col-sm-2 col-xs-2 control-label" for="username">客户姓名</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<div class="input-group">
+											<input type="text"  id="username" name="username"  maxlength="100" class="form-control" placeholder="请输入姓名" size="30"/>
+										</div>
+									</div>
+								</div>
+								<div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label" for="">出生日期</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<div class="input-group">
+											<input type="text" id="birthday" class="form-control form_datetime wider" placeholder="选择日期" size="16"/>
+										</div>
+									</div>
+								</div>
+								
+							 </div>
+
+							 <div class="form-group beibaoren">
+								<div class="form-filed">
+									<label class="col-md-2 col-sm-2 col-xs-2 control-label">职业大类</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<select  name="sex" class="form-control input-small province" id="jobOne">
+                                            <option>请选择...</option>          
+										</select>
+									</div>
+								</div>
+								<div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label">职业小类</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<select  name="sex" class="form-control input-small city" id="jobTwo">
+                                            <option>请选择...</option>  
+                                            <option>机关团体公司A10</option>  
+										 </select>
+									</div>
+								</div>
+
+							 </div>
+
+							 <div class="form-group">
+								<div class="form-filed">
+								  <label class="col-md-2 col-sm-2 col-xs-2 control-label">职业代码</label>
+								  <div class="col-md-4 col-sm-4 col-xs-4">
+									 <div class="input-group">
+										<input id="j1" type="text" maxlength="100" class="form-control" placeholder="V1003" size="30"/>
+									 </div>
+								   </div>
+								</div>
+								<div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label" for="">等级</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<div class="input-group">
+											<input id="j2" type="text" class="form-control" placeholder="1"/>
+										</div>
+									</div>
+								</div>							
+							 </div>
+
+                           </div><!--form-body结束-->
+                          </form>
+                         </div>
+
+                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                          <form class="form-horizontal"><!--form开始-->
+                            <div class="form-body">
+
+                              <div class="form-group">
+                                <div class="form-filed">
+								    <label class="col-md-2 col-sm-2 col-xs-2 control-label">性别</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<select  name="sex" class="form-control">
+                                            <option>男</option>  
+                                            <option>女</option>  
+										 </select>
+									</div>
+								</div>
+								<div class="form-filed">
+								    <label class="col-md-2 col-sm-2 col-xs-2 control-label">年龄</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+									   <div class="input-group">
+											<input type="text"  id="age" name="age"  maxlength="100" class="form-control" placeholder="35" size="35"/>
+										</div>
+									</div>
+								</div>
+                              </div>
+                              
+                              <div class="form-group">
+                              	 <div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label" for="">职业</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<select  name="sex" class="form-control input-small district" id="jobThree">
+                                            <option>请选择...</option>                                              
+											<option>内勤人员</option>  
+                                            <option>外勤人员</option>  
+                                            <option>同方全球寿险顾问</option>  
+                                            <option>公务员（文职）</option>  
+										 </select>
+									</div>
+								 </div>
+                              </div>
+
+                              <div class="form-group">                             	 
+								<div class="form-filed">
+								    <label class="col-md-2 col-sm-2 col-xs-2 control-label">寿险加费</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+									  <div class="input-group">
+										<input id="j3" type="text" class="form-control" placeholder="标准"/>
+									  </div>
+									</div>
+								</div>	
+                              </div>
+
+                            </div>                       	
+                          </form>
+                         </div>
+
+                        <label class="" style="margin:30px 0 30px 0;">  
+						  <input type="checkbox" name="optionCheckbox" id="icheck">  
+						  被保人与投保人是同一人  
+						</label>  
+                        
+                       <div id="xxx">
+                        <h4 style="width:100px;height:25px;border-bottom:1px solid #ddd;">投保人信息</h4>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                           <form class="form-horizontal">
+                            <div class="form-body">
+
+                              <div class="form-group">
+								<div class="form-filed">
+									<label class="col-md-2 col-sm-2 col-xs-2 control-label" for="username">客户姓名</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<div class="input-group">
+											<input type="text"  id="username1" name="username1"  maxlength="100" class="form-control" placeholder="请输入姓名" size="30"/>
+										</div>
+									</div>
+								</div>
+								<div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label" for="">出生日期</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<div class="input-group">
+											<input type="text" id="birthday2" class="form-control form_datetime wider" placeholder="选择日期" size="16"/>
+										</div>
+									</div>
+								</div>
+								
+							 </div>
+
+							 <div class="form-group toubaoren">
+								<div class="form-filed">
+									<label class="col-md-2 col-sm-2 col-xs-2 control-label">职业大类</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<select  name="" class="form-control input-small province2" id="jobOne2">
+                                            <option>请选择...</option>                                              
+                                            <option value="1">餐旅业H</option> 
+                                            <option value="2">服务业S</option> 
+                                            <option value="3">公共事业Q</option> 
+                                            <option value="4">家庭管理T</option> 
+                                            <option value="5">建筑工程业I</option> 
+                                            <option value="6">交通运输业G</option> 
+                                            <option value="7">军人V</option> 
+                                            <option value="8">矿石,采石业F</option> 
+                                            <option value="9">木材,森林业D</option> 
+                                            <option value="10">木材加工业E</option> 
+                                            <option value="11">农牧业B</option> 
+                                            <option value="12">其他Y</option> 
+                                            <option value="13">司法O</option> 
+                                            <option value="14">卫生、保健业L</option> 
+                                            <option value="15">文教机关N</option> 
+                                            <option value="16">新闻广告业K</option> 
+                                            <option value="17">一般商业R</option> 
+                                            <option value="18">一般职业A</option> 
+                                            <option value="19">娱乐业M</option> 
+                                            <option value="20">渔业C</option> 
+                                            <option value="21">职业运动人员（体育院校的学生）X</option> 
+                                            <option value="22">制造业J</option> 
+                                            <option value="23">治安人员U</option> 
+                                            <option value="24">咨讯业W</option> 
+                                            <option value="25">宗教团体P</option>           
+										</select>
+									</div>
+								</div>
+								<div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label">职业小类</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<select  name="" class="form-control input-small city2" id="jobTwo2">
+                                            <option>请选择...</option>  
+                                            <option>机关团体公司A10</option>  
+										 </select>
+									</div>
+								</div>
+
+							 </div>
+
+							 <div class="form-group">
+								<div class="form-filed">
+								  <label class="col-md-2 col-sm-2 col-xs-2 control-label">职业代码</label>
+								  <div class="col-md-4 col-sm-4 col-xs-4">
+									 <div class="input-group">
+										<input id="j4" type="text" maxlength="100" class="form-control" placeholder="V1003" size="30"/>
+									 </div>
+								   </div>
+								</div>
+								<div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label" for="">等级</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<div class="input-group">
+											<input id="j5" type="text" class="form-control" placeholder="1"/>
+										</div>
+									</div>
+								</div>							
+							 </div>
+
+                           </div><!--form-body结束-->
+                          </form>
+                         </div>
+
+                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                          <form class="form-horizontal"><!--form开始-->
+                            <div class="form-body">
+
+                              <div class="form-group">
+                                <div class="form-filed">
+								    <label class="col-md-2 col-sm-2 col-xs-2 control-label">性别</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<select  name="sex" class="form-control">
+                                            <option>男</option>  
+                                            <option>女</option>  
+										 </select>
+									</div>
+								</div>
+								<div class="form-filed">
+								    <label class="col-md-2 col-sm-2 col-xs-2 control-label">年龄</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+									   <div class="input-group">
+											<input type="text"  id="age2" name="age"  maxlength="100" class="form-control" placeholder="35" size="35"/>
+										</div>
+									</div>
+								</div>
+                              </div>
+                              
+                              <div class="form-group">
+                              	 <div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label" for="">职业</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<select  name="sex" class="form-control input-small district2" id="jobThree2">
+                                            <option>请选择...</option>                                              
+											<option>内勤人员</option>  
+                                            <option>外勤人员</option>  
+                                            <option>同方全球寿险顾问</option>  
+                                            <option>公务员（文职）</option>   
+										 </select>
+									</div>
+								 </div>
+                              </div>
+
+                              <div class="form-group">                             	 
+								<div class="form-filed">
+								    <label class="col-md-2 col-sm-2 col-xs-2 control-label">寿险加费</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+									  <div class="input-group">
+										<input id="j6" type="text" class="form-control" placeholder="标准"/>
+									  </div>
+									</div>
+								</div>	
+                              </div>
+
+                            </div>                       	
+                          </form>
+                         </div>
+                        </div>
+
+                      </div><!--container-box-->
+                    </div><!--结束-->
+
+				</div>
+			</div>
+			<!-- 客户信息结束 -->
+
+			<div class="clearfix">
+			</div>
+
+			<!--产品信息-->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					
+                    <div class="dashboard-stat" style="padding:0 0 20px 0"><!--开始-->
+						<div class="dashtitle">
+							产品信息
+						</div>
+
+						<div class="container-box">
+						  <p>	
+	                          <span style="color:red">
+								 您是否同时购买其他长期主险
+							  </span>
+							  <label><input type="radio" name="sex" value="是" checked> 是 </label>
+							  <label><input type="radio" name="sex" value="否"> 否 </label>
+						  </p>
+
+                          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                           <form class="form-horizontal">
+                            <div class="form-body">
+
+                              <div class="form-group">
+								<div class="form-filed">
+									<label class="col-md-2 col-sm-2 col-xs-2 control-label" for="">主险</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<div class="input-group">
+											<select  name="sex" class="form-control input-small" id="zhuxian">
+												<option>请选择...</option>
+												<option value="1">同方全球「康健一生」终身重大疾病保险</option>  
+												<option value="2">同方全球「百万身价」(B款)年金保险(分红型)</option>  
+												<option value="3">同方全球「安心」意外伤害保险</option>  
+												<option value="4">同方全球安康无忧重疾养老保险计划</option>  
+											 </select>
+										</div>
+									</div>
+								</div>
+								<div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label" for="">缩写</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<div class="input-group">
+										   <input type="text" class="form-control" placeholder="" id="suoxie"/>
+										</div>
+									</div>
+								</div>
+								
+							 </div>
+
+							 <div class="form-group beibaoren">
+								<div class="form-filed">
+									<label class="col-md-2 col-sm-2 col-xs-2 control-label">缴费方式</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<div class="input-group">
+										   <select  name="" class="form-control">
+	                                            <option>年缴</option>  
+	                                            <option>半年</option> 
+	                                            <option>期缴</option>  
+	                                            <option>趸缴</option>  
+	                                            <option>季缴</option>    
+	                                            <option>月缴</option>   
+										   </select>
+										</div>
+									</div>
+								</div>
+								<div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label">保额/份</label>
+									<div class="col-md-3 col-sm-4 col-xs-4">
+										<div class="input-group">
+										  <input type="text" class="form-control" placeholder="5"/>
+										</div>
+									</div>
+								</div>
+
+							 </div>
+
+                           </div><!--form-body结束-->
+                          </form>
+                         </div>
+
+                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                          <form class="form-horizontal"><!--form开始-->
+                            <div class="form-body">
+
+                              <div class="form-group">
+                                <div class="form-filed">
+								    <label class="col-md-2 col-sm-2 col-xs-2 control-label">缴费期限</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+										<select name="year" class="form-control input-small" style="width:80px !important">
+                                            <option>1年</option>  
+                                            <option>2年</option>  
+										</select>
+									</div>
+								</div>
+								<div class="form-filed">
+								    <label class="col-md-2 col-sm-2 col-xs-2 control-label">生效日期</label>
+									<div class="col-md-4 col-sm-4 col-xs-4">
+									   <div class="input-group">
+											<input type="text"  id="startTime" name="startTime"  maxlength="100" class="form-control" size="30" readonly="true"/>
+									   </div>
+									</div>
+								</div>
+                              </div>
+                              
+                              <div class="form-group">
+                              	 <div class="form-filed">
+									<label class="col-md-2 col-sm-2 col-xs-2 control-label" for="">保费</label>
+									<div class="col-md-2 col-sm-3 col-xs-3">
+										<div class="input-group">
+										  <input type="text" class="form-control" placeholder="200"/>
+										</div>
+									</div>
+								 </div>
+								 <div class="form-filed">
+									<label class="col-md-3 col-sm-2 col-xs-2 control-label" for="">
+									    <input type="checkbox" name="" value="sure">  
+									    是否同期 
+									</label>
+								 </div>
+								 <div class="form-filed">
+									<label class="col-md-2 col-sm-2 col-xs-2 control-label" for="">同期日期</label>
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<div class="input-group wider">
+											<input type="text" class="form-control form_datetime"/>
+										</div>
+									</div>
+								 </div>
+                              </div>
+
+                            </div>                       	
+                          </form>
+                         </div>  
+                         
+                         <!--理财规划按钮-->
+                         <div class="pull-left" style="margin:0 0 10px 15px;">
+                         	<a href="#form_modal" class="btn btn-primary btn-sm" data-toggle="modal">理财规划</a>
+                         </div>  
+                         <!--结束-->
+
+                         <!--modal-->
+						 <div id="form_modal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header" style="height:40px;background:#4593D6;color:#fff;text-align:center;">
+                                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+									   <h4 class="modal-title">录入额外追加保费</h4>
+									</div>
+									<div class="modal-body">
+                                   	  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+				                        <form class="form-horizontal"><!--form开始-->
+				                          <div class="form-body">
+
+				                             <div class="form-group">
+				                                <div class="form-filed">
+												    <label class="col-md-3 col-sm-2 col-xs-2 control-label">年龄段</label>
+													<div class="col-md-3 col-sm-2 col-xs-2">
+													  <input type="text" class="form-control"/>
+													</div>
+												</div>
+												<div class="form-filed">
+												    <label class="col-md-1 col-sm-1 col-xs-1 control-label">至</label>
+													<div class="col-md-3 col-sm-2 col-xs-2">
+													   <div class="input-group">
+														<input type="text" class="form-control"/>
+													   </div>
+													</div>
+												</div>
+												<div class="form-filed">
+												    <label class="col-md-2 col-sm-2 col-xs-2 control-label">周岁</label>
+												</div>												
+				                             </div>
+				                            					                         
+				                           </div>                       	
+				                         </form>
+				                      </div> 
+
+				                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                         <form class="form-horizontal"><!--form开始-->
+				                          <div class="form-body">
+
+				                            <div class="form-group">
+                                               <div class="form-filed">
+												    <label class="col-md-4 col-sm-2 col-xs-2 control-label">保费</label>
+													<div class="col-md-5 col-sm-2 col-xs-2">
+													   <div class="input-group">
+														<input type="text" class="form-control"/>
+													   </div>
+													</div>
+												</div>
+												<div class="form-filed">
+													<label class="col-md-1 col-sm-1 col-xs-1 control-label">元</label>
+												</div>
+				                            </div>
+
+				                          </div>
+				                         </form>
+				                      </div>
+
+				                      <div class="clearfix"></div>
+
+				                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				                        <div class="pull-right">
+				                          <a href="#" class="btn btn-success btn-sm">   增加
+				                          </a>
+				                          <a href="#" class="btn btn-default btn-sm">   返回
+				                          </a>
+				                        </div>
+				                      </div>				                      
+
+									</div>
+                                    
+                                    <!--清除浮动-->
+				                    <div class="clearfix"></div>
+
+									<div class="modal-footer" style="padding:0;border-top:none;">
+                                       <h4 style="height:40px;background:#4593D6;text-align:center;line-height:40px; color:#fff;">已录入的额外追加保费</h4>
+                                       <div>
+                                       	 <table class="table table-striped table-bordered table-hover" id="mTable">
+                                       	   <thead style="background:#DFDFDF;">
+                                       	 	  <tr>
+												<th>
+											 	    年龄段(周岁)
+											 	</th>
+												<th>
+													保费(元)
+												</th>
+												<th>
+												 	操作
+												</th>						
+											  </tr>
+										   </thead>
+										   <tbody>
+										   	  <tr align="center">
+												<td>38-80</td>
+												<td>5000</td>
+												<td>
+												 	<a href="#" class="">删除</a>
+												</td>						
+											  </tr>
+											  <tr align="center">
+												<td>38-80</td>
+												<td>5000</td>
+												<td>
+												 	<a href="#" class="">删除</a>
+												</td>						
+											  </tr>
+											  <tr align="center">
+												<td>38-80</td>
+												<td>5000</td>
+												<td>
+												 	<a href="#" class="">删除</a>
+												</td>						
+											  </tr>
+										   </tbody>
+                                       	 </table>
+                                       </div>
+									</div>
+                                </div>
+                            </div>
+                         </div>
+                         <!--modal结束-->
+
+                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           <!--表格位置-->
+                           <div class="table-responsive">
+                           <table class="table table-striped table-bordered table-hover" id="iTable" data-singleselect="true" data-checkbox="true" data-pageSize="10">
+                             <thead>
+								<tr style="background:#DFDFDF;">
+									<th class="table-checkbox" data-field='id' data-checkbox="true" style="text-align:left;">
+								 		<input type="checkbox" class="group-checkable" data-sortable="false"/>
+								 	</th>
+									<th data-field='nameEn' data-sortDir="asc" style="text-align:left;">
+										附加险
+									</th>
+									<th data-field="nameZh">
+									 	缴费期限
+									</th>
+									<th data-field="description">
+										保额/份数
+									</th>
+									<th data-field="editable" align="center"  data-formatter="formatterEidtable">
+										保费
+									</th>							
+								</tr>
+							 </thead>
+							 <tbody id="xianzhong1" style="display:none;">
+							  <tr>
+								<td>
+									<input type="checkbox" class="group-checkable" data-sortable="false"/>
+								</td>
+								<td>
+									同方全球附加「百万身价」意外身故定期寿险
+								</td>
+								<td>
+									<select  name="" class="form-control"> 
+										<option>期缴</option>  
+										<option>年缴</option>  
+										<option>半年</option> 
+										<option>趸缴</option>  
+										<option>季缴</option>    
+										<option>月缴</option>   
+									</select>
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="5"/> 份
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="800"/>
+								</td>
+							  </tr>
+							  
+							  <tr>
+								<td>
+									<input type="checkbox" class="group-checkable" data-sortable="false"/>
+								</td>
+								<td>
+									同方全球附加重大自然灾害意外身故定期寿险
+								</td>
+								<td>
+									<select  name="" class="form-control"> 
+										<option>年缴</option>  
+										<option>半年</option> 
+										<option>期缴</option>  
+										<option>趸缴</option>  
+										<option>季缴</option>    
+										<option>月缴</option>   
+									</select>
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="18"/> 份
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="2800"/>
+								</td>
+							  </tr>
+							  <tr>
+								<td>
+									<input type="checkbox" class="group-checkable" data-sortable="false"/>
+								</td>
+								<td>
+									同方全球附加「百万身价」意外伤害医疗保险
+								</td>
+								<td>
+									<select  name="" class="form-control"> 
+										<option>趸缴</option>  
+										<option>年缴</option>  
+										<option>半年</option> 
+										<option>期缴</option>  
+										<option>季缴</option>    
+										<option>月缴</option>   
+									</select>
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="6000"/> 份
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="380"/>
+								</td>
+							  </tr>
+							  
+							</tbody>
+
+							<tbody id="xianzhong2" style="display:none;">
+							  <tr>
+								<td>
+									<input type="checkbox" class="group-checkable" data-sortable="false" />
+								</td>
+								<td>
+									同方全球附加（C款）住院费用补偿医疗保险
+								</td>
+								<td>
+									<select  name="" class="form-control"> 
+										<option>期缴</option>  
+										<option>年缴</option>  
+										<option>半年</option> 
+										<option>趸缴</option>  
+										<option>季缴</option>    
+										<option>月缴</option>   
+									</select>
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="5"/> 份
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="800"/>
+								</td>
+							  </tr>
+							  
+							  <tr>
+								<td>
+									<input type="checkbox" class="group-checkable" data-sortable="false" checked="false"/>
+								</td>
+								<td>
+									同方全球附加手术补贴医疗保险
+								</td>
+								<td>
+									<select  name="" class="form-control"> 
+										<option>年缴</option>  
+										<option>半年</option> 
+										<option>期缴</option>  
+										<option>趸缴</option>  
+										<option>季缴</option>    
+										<option>月缴</option>   
+									</select>
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="18"/> 份
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="2800"/>
+								</td>
+							  </tr>							  
+							</tbody>
+
+							<tbody id="xianzhong3" style="display:none;">
+							  <tr>
+								<td>
+									<input type="checkbox" class="group-checkable" data-sortable="false" />
+								</td>
+								<td>
+									安康无忧重大疾病保险
+								</td>
+								<td>
+									<select  name="" class="form-control"> 
+										<option>期缴</option>  
+										<option>年缴</option>  
+										<option>半年</option> 
+										<option>趸缴</option>  
+										<option>季缴</option>    
+										<option>月缴</option>   
+									</select>
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="5"/> 份
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="800"/>
+								</td>
+							  </tr>
+							  
+							  <tr>
+								<td>
+									<input type="checkbox" class="group-checkable" data-sortable="false" />
+								</td>
+								<td>
+									同方全球附加投保人豁免保费定期寿险
+								</td>
+								<td>
+									<select  name="" class="form-control"> 
+										<option>年缴</option>  
+										<option>半年</option> 
+										<option>期缴</option>  
+										<option>趸缴</option>  
+										<option>季缴</option>    
+										<option>月缴</option>   
+									</select>
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="18"/> 份
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="2800"/>
+								</td>
+							  </tr>
+							</tbody>
+
+							<tbody id="xianzhong4" style="display:none;">
+							  <tr>
+								<td>
+									<input type="checkbox" class="group-checkable" data-sortable="false"/>
+								</td>
+								<td>
+									同方全球附加投保人豁免保费重大疾病保险
+								</td>
+								<td>
+									<select  name="" class="form-control"> 
+										<option>期缴</option>  
+										<option>年缴</option>  
+										<option>半年</option> 
+										<option>趸缴</option>  
+										<option>季缴</option>    
+										<option>月缴</option>   
+									</select>
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="5"/> 份
+								</td>
+								<td>
+									<input style="height:30px;border-radius:4px;border:1px solid #ddd;background:#fff;text-align:center;" type="text" class="" placeholder="800"/>
+								</td>
+							  </tr>
+							  
+							 </tbody>
+
+                           </table>
+                           </div>
+                           <!--表格结束-->                          
+                         </div>
+
+                         <!--保单计算-->
+                     	 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           <form class="form-horizontal"><!--form开始-->
+                            <div class="form-body">
+                              <div class="form-group">
+                                    <div class="form-filed">
+										<label class="col-md-2 col-sm-0 col-xs-0 control-label" for=""></label>
+									</div>
+									<div class="form-filed">
+									    <label class="col-md-2 col-sm-2 col-xs-2 control-label">总保费</label>
+										<div class="col-md-2 col-sm-2 col-xs-2">
+											<div class="input-group">
+											  <input type="text" class="form-control" placeholder="200"/>
+											</div>
+										</div>
+									</div>                                 
+
+									<div class="form-filed">
+									    <label class="col-md-2 col-sm-2 col-xs-2 control-label">累计保费</label>
+										<div class="col-md-2 col-sm-2 col-xs-2">
+										   <div class="input-group">
+											  <input type="text" class="form-control" placeholder="200"/>
+										   </div>
+										</div>
+									</div>									
+									<div class="form-filed">
+										<div class="col-md-2 col-sm-4 col-xs-4">
+										   <button class="btn btn-success">保费计算</button>
+										</div>										
+									</div>
+                              </div>
+                            </div>
+                           </form>
+                         </div>
+                         <!--计算结束-->
+
+                      </div><!--container-box-->
+                    </div><!--结束-->
+
+				</div>
+			</div>
+			<!--产品信息结束-->
+            
+            <!--提交按钮-->
+            <div class="row margin-top-10">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:center;">
+				   <button class="btn btn-primary" id="sub">提交</button>
+				</div>
+			</div>          
+
+		</div>
+	</div>
+	<!-- END CONTENT -->
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="../../assets1/global/plugins/respond.min.js"></script>
+<script src="../../assets1/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+<script src="../../assets1/global/plugins/jquery.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="../../assets1/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="../../assets1/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../assets1/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="../../assets1/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+
+<script src="../../assets1/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="../../assets1/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="../../assets1/admin/layout/scripts/layout.js" type="text/javascript"></script>
+
+<script src="../../assets1/admin/layout/scripts/demo.js" type="text/javascript"></script>
+<script src="../../assets1/admin/pages/scripts/index.js" type="text/javascript"></script>
+<script src="../../assets1/admin/pages/scripts/tasks.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script>
+jQuery(document).ready(function() {    
+   Metronic.init(); // init metronic core componets
+   Layout.init(); // init layout
+
+   //点击checkbox，隐藏下半部分
+   $('#icheck').click(function(){
+   	  if($(this).prop('checked')){
+   	  	  $('#xxx').css('display','none');
+   	  }else{
+   	  	  $('#xxx').css('display','block');
+   	  };
+   });
+
+
+   //日期选择
+   $(".form_datetime").datepicker({format: 'yyyy-mm-dd'}).change(function(){
+	   $('.datepicker').css('display','none');
+   });
+
+   //设置生效日期
+   var date = new Date();
+   var seperator1 = "-";
+   var month = date.getMonth() + 1;
+   var strDate = date.getDate() + 1;
+   if (month >= 1 && month <= 9) {
+	   month = "0" + month;
+   }
+   if (strDate >= 0 && strDate <= 9) {
+	   strDate = "0" + strDate;
+   }
+   var startTime = date.getFullYear() + seperator1 + month + seperator1 + strDate;
+   $("#startTime").val(startTime);
+
+   //出生日期与年龄联动
+   $("#birthday").change(function() {
+	   var birthday = $("#birthday").val();
+	   var time = new Date();
+	   var age = time.getFullYear() - birthday.substr(0,4);
+	   $("#age").val(age);
+   });
+   $("#birthday2").change(function() {
+	   var birthday = $("#birthday2").val();
+	   var time = new Date();
+	   var age = time.getFullYear() - birthday.substr(0,4);
+	   $("#age2").val(age);
+   });
+
+
+
+
+
+   $("#sub").click(function(){
+		window.location.href="./detail.html"
+   });
+   
+   $("#zhuxian").change(function(){
+       var flg = $("#zhuxian").val();
+       initDisplay();
+       setXianZhongDaiMa(flg);//设置主险缩写代码
+       if(1==flg) {
+            $("#xianzhong1").css("display","");
+            //康健一生
+       } else if (2 == flg) {
+            $("#xianzhong2").css("display","");
+            //百万身价
+       
+       } else if (3 == flg) {
+            $("#xianzhong3").css("display","");
+            //安心
+       
+       } else if (4 == flg) {
+            $("#xianzhong4").css("display","");
+            //安康无忧
+       }
+   });
+   
+   function initDisplay() {
+        $("#xianzhong1").css("display","none");
+        $("#xianzhong2").css("display","none");
+        $("#xianzhong3").css("display","none");
+        $("#xianzhong4").css("display","none");
+   };
+   
+   //设置主险缩写
+   function setXianZhongDaiMa(flg) {
+        //placeholder="KJYS" id="suoxie"
+        flg = flg*1;
+        switch (flg) {
+        case 1:
+            $("#suoxie").attr("placeholder","KJYS");
+            break;
+        case 2:
+            $("#suoxie").attr("placeholder","BWSJ");
+            break;
+        case 3:
+            $("#suoxie").attr("placeholder","AX");
+            break;
+        case 4:
+            $("#suoxie").attr("placeholder","AKWY");
+            break;
+         default:
+            $("#suoxie").attr("placeholder","");
+        }    
+   }
+   
+   //设置职业代码下拉框联动
+   
+   function initComBox() {
+       // $("#jobTwo").append("");
+   }
+   
+   $("#jobOne").change(function(){
+        
+   });
+   
+   var data = [
+    {"p":"餐旅业H",
+    "c":[
+        {"ct":"旅游业H10",
+        "d":[
+            {"dt":"旅游业H10一般内勤人员","code":"H1001","lvl":"1","life":"标准"},
+            {"dt":"旅游业H10外务员及导游","code":"H1002","lvl":"2","life":"标准"},
+            {"dt":"旅游业H10旅游景点内的司机","code":"H1003","lvl":"3","life":"标准"}
+        ]},
+        {"ct":"旅馆业H11",
+        "d":[
+            {"dt":"旅馆业H11经理人员","code":"H1101","lvl":"1","life":"标准"},
+            {"dt":"旅馆业H11一般内勤人员","code":"H1102","lvl":"1","life":"标准"},
+            {"dt":"旅馆业H11外务员","code":"H1103","lvl":"2","life":"标准"},
+            {"dt":"旅馆业H11技工 修理工(非室外高空作业)","code":"H1104","lvl":"3","life":"标准"},
+            {"dt":"旅馆业H11技工 修理工(室外高空作业)","code":"H1105","lvl":"拒保","life":"2.5"},
+            {"dt":"旅馆业H11客房服务员","code":"H1106","lvl":"2","life":"标准"},
+            {"dt":"旅馆业H11清洁工","code":"H1107","lvl":"3","life":"标准"},
+            {"dt":"旅馆业H11锅炉工(全自动) 锅炉维修工","code":"H1108","lvl":"4","life":"标准"},
+            {"dt":"旅馆业H11锅炉工(非全自动)","code":"H1109","lvl":"拒保","life":"2.5"}
+        ]},
+        {"ct":"餐饮业H12",
+        "d":[
+            {"dt":"餐饮业H12经理人员","code":"H1201","lvl":"1","life":"标准"},
+            {"dt":"餐饮业H12一般内勤人员","code":"H1202","lvl":"1","life":"标准"},
+            {"dt":"餐饮业H12柜台人员 收银员","code":"H1203","lvl":"1","life":"标准"},
+            {"dt":"餐饮业H12收帐员","code":"H1204","lvl":"2","life":"标准"},
+            {"dt":"餐饮业H12采购人员","code":"H1205","lvl":"2","life":"标准"},
+            {"dt":"餐饮业H12厨师(宾馆)","code":"H1206","lvl":"2","life":"标准"},
+            {"dt":"餐饮业H12点心师 配菜师","code":"H1207","lvl":"3","life":"标准"},
+            {"dt":"餐饮业H12服务人员 领班","code":"H1208","lvl":"2","life":"标准"},
+            {"dt":"餐饮业H12厨师(一般饭店酒楼)","code":"H1209","lvl":"4","life":"标准"},
+            {"dt":"餐饮业H12厨师长（宾馆）","code":"H1210","lvl":"2","life":"标准"},
+            {"dt":"餐饮业H12厨师长（一般饭店酒楼）","code":"H1211","lvl":"3","life":"标准"}
+        ]}
+    ]},
+    
+    
+    {"p":"服务业S",
+    "c":[
+        {"ct":"银行 保险 信托 租赁业S10",
+        "d":[
+            {"dt":"银行 保险 信托 租赁业S10一般内勤人员","code":"S1001","lvl":"1","life":"标准"},
+            {"dt":"银行 保险 信托 租赁业S10外务员","code":"S1002","lvl":"2","life":"标准"},
+            {"dt":"银行 保险 信托 租赁业S10调查员","code":"S1003","lvl":"2","life":"标准"},
+            {"dt":"银行 保险 信托 租赁业S10现金运送员 司机","code":"S1004","lvl":"4","life":"标准"},
+            {"dt":"银行 保险 信托 租赁业S10收费 征信人员","code":"S1005","lvl":"2","life":"标准"}
+        ]},
+        {"ct":"自由业S11",
+        "d":[
+            {"dt":"自由业S11律师","code":"S1101","lvl":"2","life":"标准"},
+            {"dt":"自由业S11会计师","code":"S1102","lvl":"1","life":"标准"},
+            {"dt":"自由业S11代理机构工作人员(内勤)","code":"S1103","lvl":"1","life":"标准"},
+            {"dt":"自由业S11经纪人(内勤)","code":"S1104","lvl":"1","life":"标准"},
+            {"dt":"自由业S11外勤人员","code":"S1105","lvl":"2","life":"标准"},
+            {"dt":"自由业S11公司法律代表","code":"S1106","lvl":"1","life":"标准"}
+        ]},
+        {"ct":"殡丧业S14",
+        "d":[
+            {"dt":"殡丧业S14搬运工","code":"S1401","lvl":"3","life":"标准"},
+            {"dt":"殡丧业S14火化工人","code":"S1402","lvl":"2","life":"标准"}
+        ]},
+        {"ct":"其他S20",
+        "d":[
+            {"dt":"其他S20公证处外务员","code":"S2001","lvl":"2","life":"标准"},
+            {"dt":"其他S20海关报关员","code":"S2002","lvl":"2","life":"标准"},
+            {"dt":"其他S20外务税务人员","code":"S2003","lvl":"2","life":"标准"},
+            {"dt":"其他S20地磅人员","code":"S2004","lvl":"2","life":"标准"},
+            {"dt":"其他S20美容 美发师","code":"S2005","lvl":"2","life":"标准"},
+            {"dt":"其他S20钟表匠","code":"S2006","lvl":"2","life":"标准"},
+            {"dt":"其他S20鞋匠 雨伞匠","code":"S2007","lvl":"2","life":"标准"},
+            {"dt":"其他S20洗衣店工人","code":"S2008","lvl":"2","life":"标准"},
+            {"dt":"其他S20大楼管理员","code":"S2009","lvl":"2","life":"标准"},
+            {"dt":"其他S20门卫（负保安任务）","code":"S2010","lvl":"3","life":"标准"},
+            {"dt":"其他S20门卫（不负保安任务）","code":"S2011","lvl":"2","life":"标准"},
+            {"dt":"其他S20照相馆摄影师","code":"S2012","lvl":"1","life":"标准"},
+            {"dt":"其他S20道路清洁工","code":"S2013","lvl":"3","life":"标准"},
+            {"dt":"其他S20下水道清洁工","code":"S2014","lvl":"4","life":"标准"},
+            {"dt":"其他S20勤杂工(地面作业)","code":"S2015","lvl":"2","life":"标准"},
+            {"dt":"其他S20高楼外部清洁工","code":"S2016","lvl":"拒保","life":"5"},
+            {"dt":"其他S20车辆保管人员","code":"S2017","lvl":"2","life":"标准"},
+            {"dt":"其他S20加油站人员","code":"S2018","lvl":"3","life":"标准"},
+            {"dt":"其他S20烟囱清洁工","code":"S2019","lvl":"拒保","life":"标准"},
+            {"dt":"其他S20高速公路清洁工","code":"S2020","lvl":"拒保","life":"标准"},
+            {"dt":"其他S20单位采购员","code":"S2021","lvl":"2","life":"标准"},
+            {"dt":"其他S20洗车工人","code":"S2022","lvl":"2","life":"标准"},
+            {"dt":"其他S20彩票销售人员","code":"S2023","lvl":"2","life":"标准"},
+            {"dt":"其他S20书报亭工作人员","code":"S2024","lvl":"2","life":"标准"},
+            {"dt":"其他S20搬场公司的搬运工","code":"S2025","lvl":"4","life":"标准"},
+            {"dt":"其他S20美容师","code":"S2026","lvl":"2","life":"标准"},
+            {"dt":"其他S20交通协管员","code":"S2027","lvl":"3","life":"标准"}
+        ]}
+    ]},
+    
+    
+    {"p":"公共事业Q",
+    "c":[
+        {"ct":"邮政快递人员Q10",
+        "d":[
+            {"dt":"邮政快递人员Q10内勤人员","code":"Q1001","lvl":"1","life":"标准"},
+            {"dt":"邮政快递人员Q10外勤邮务人员(摩托车)","code":"Q1002","lvl":"拒保","life":"标准"},
+            {"dt":"邮政快递人员Q10外勤邮务人员(汽车,助动车,自行车)","code":"Q1003","lvl":"4","life":"标准"},
+            {"dt":"邮政快递人员Q10包裹搬运人员","code":"Q1004","lvl":"3","life":"标准"}
+        ]},
+        {"ct":"电信及电力Q11",
+        "d":[
+            {"dt":"电信及电力Q11行政内勤人员","code":"Q1101","lvl":"1","life":"标准"},
+            {"dt":"电信及电力Q11抄表员 收费员","code":"Q1102","lvl":"2","life":"标准"},
+            {"dt":"电信及电力Q11设计工程师(非现场)","code":"Q1103","lvl":"1","life":"标准"},
+            {"dt":"电信及电力Q11现场监督及视察工程师","code":"Q1104","lvl":"3","life":"标准"},
+            {"dt":"电信及电力Q11现场监督及视察工作人员","code":"Q1105","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11住宅拉线工人","code":"Q1106","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11电表按装,修理工","code":"Q1107","lvl":"3","life":"标准"},
+            {"dt":"电信及电力Q11住宅办公楼工厂电力电信设备驾设维修工人(非室外高空)","code":"Q1108","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11高空电力 电信设备驾设维修工人","code":"Q1109","lvl":"拒保","life":"5"},
+            {"dt":"电信及电力Q11发电厂总工程师","code":"Q1110","lvl":"2","life":"标准"},
+            {"dt":"电信及电力Q11编接电缆工人 拉线工人 维修工人","code":"Q1111","lvl":"拒保","life":"5"},
+            {"dt":"电信及电力Q11中汇站测试员 装配工人 总机接线工人","code":"Q1112","lvl":"4","life":"2.5"},
+            {"dt":"电信及电力Q11变压器操作人员和隧道工人","code":"Q1113","lvl":"拒保","life":"5"},
+            {"dt":"电信及电力Q11电力输送员","code":"Q1114","lvl":"3","life":"标准"},
+            {"dt":"电信及电力Q11发电站工作人员","code":"Q1115","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11高压电工程人员","code":"Q1116","lvl":"拒保","life":"5"},
+            {"dt":"电信及电力Q11地底或电板拉设工人，督察，巡视员","code":"Q1117","lvl":"4","life":"2.5"},
+            {"dt":"电信及电力Q11电台天线维护人员","code":"Q1118","lvl":"拒保","life":"5"},
+            {"dt":"电信及电力Q11发电站工程师、涡轮机操作员或轮机房工作人员","code":"Q1119","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11发电站司炉工人","code":"Q1120","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11配电工","code":"Q1121","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11变电站值班人员","code":"Q1122","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11调相机值班人员","code":"Q1123","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11换流站值班人员","code":"Q1124","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11变电设备安装工人","code":"Q1125","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11变配电室值班电工","code":"Q1126","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11常用电机检修工人","code":"Q1127","lvl":"4","life":"标准"},
+            {"dt":"电信及电力Q11牵引电力线路安装维护工人","code":"Q1128","lvl":"拒保","life":"5"}
+        ]},
+        {"ct":"自来水(水利)Q12",
+        "d":[
+            {"dt":"自来水(水利)Q12行政内勤人员","code":"Q1201","lvl":"1","life":"标准"},
+            {"dt":"自来水(水利)Q12工程师","code":"Q1202","lvl":"2","life":"标准"},
+            {"dt":"自来水(水利)Q12水坝,水库管理人员","code":"Q1203","lvl":"3","life":"标准"},
+            {"dt":"自来水(水利)Q12水利工程设施人员","code":"Q1204","lvl":"4","life":"标准"},
+            {"dt":"自来水(水利)Q12自来水管装修人员","code":"Q1205","lvl":"3","life":"标准"},
+            {"dt":"自来水(水利)Q12抄表员,收费员","code":"Q1206","lvl":"2","life":"标准"},
+            {"dt":"自来水(水利)Q12自来水厂水质分析员(实地)","code":"Q1207","lvl":"3","life":"标准"}
+        ]},
+        {"ct":"煤气Q13",
+        "d":[
+            {"dt":"煤气Q13行政内勤人员","code":"Q1301","lvl":"1","life":"标准"},
+            {"dt":"煤气Q13工程师","code":"Q1302","lvl":"2","life":"标准"},
+            {"dt":"煤气Q13管线装修工","code":"Q1303","lvl":"3","life":"标准"},
+            {"dt":"煤气Q13收费员,抄表员","code":"Q1304","lvl":"2","life":"标准"},
+            {"dt":"煤气Q13检查员","code":"Q1305","lvl":"2","life":"标准"},
+            {"dt":"煤气Q13煤气器具制作工,煤气分装工","code":"Q1306","lvl":"4","life":"标准"}
+        ]}
+    ]},
+    
+    
+    {"p":"家庭管理T",
+    "c":[
+        {"ct":"家庭管理T10",
+        "d":[
+            {"dt":"家庭管理T10家庭主妇","code":"T1001","lvl":"2","life":"标准"},
+            {"dt":"家庭管理T10退休人员","code":"T1002","lvl":"2","life":"标准"},
+            {"dt":"家庭管理T10保姆","code":"T1003","lvl":"2","life":"标准"},
+            {"dt":"家庭管理T10钟点工","code":"T1004","lvl":"2","life":"标准"}
+        ]}
+    ]},
+    
+    {"p":"建筑工程业I",
+    "c":[
+        {"ct":"建筑公司(土木工程)I10",
+        "d":[
+            {"dt":"建筑公司(土木工程)I10经理人员(非现场者)","code":"I1001","lvl":"1","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10经理人员(不亲自作业 偶至现场指导)","code":"I1002","lvl":"2","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑师","code":"I1003","lvl":"1","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10制图员","code":"I1004","lvl":"1","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10行政内勤人员","code":"I1005","lvl":"1","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10测量员","code":"I1006","lvl":"3","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10工程师","code":"I1007","lvl":"3","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10监工","code":"I1008","lvl":"3","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10业务员","code":"I1009","lvl":"2","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10引导参观工地服务人员","code":"I1010","lvl":"2","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10承包单位工程负责人员","code":"I1011","lvl":"3","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10仓库管理员","code":"I1012","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/领班","code":"I1051","lvl":"3","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/模板工","code":"I1052","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/木匠","code":"I1053","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/泥水匠","code":"I1054","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/混凝土混合机操作员","code":"I1055","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/油漆工","code":"I1056","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/水电工","code":"I1057","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/钢骨结构工人","code":"I1058","lvl":"拒保","life":"2.5"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/鹰驾架设工人","code":"I1059","lvl":"拒保","life":"2.5"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/焊工","code":"I1060","lvl":"拒保","life":"2.5"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/建筑工程车辆驾驶员","code":"I1061","lvl":"拒保","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/建筑工程车辆机械操作员","code":"I1062","lvl":"拒保","life":"2.5"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/磨石工人","code":"I1063","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/洗石工人","code":"I1064","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/石棉瓦或浪板安装工人","code":"I1065","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/铝门窗装修人员","code":"I1066","lvl":"4","life":"标准"},
+            {"dt":"建筑公司(土木工程)I10建筑工人/防水 排水工程员","code":"I1067","lvl":"4","life":"标准"}
+        ]},
+        {"ct":"铁路道路铺设I11",
+        "d":[
+            {"dt":"铁路道路铺设I11工程师","code":"I1101","lvl":"3","life":"标准"},
+            {"dt":"铁路道路铺设I11领班 监工","code":"I1102","lvl":"3","life":"标准"},
+            {"dt":"铁路道路铺设I11道路工程机械操作员","code":"I1103","lvl":"4","life":"2.5"},
+            {"dt":"铁路道路铺设I11道路工程车辆驾驶员","code":"I1104","lvl":"4","life":"标准"},
+            {"dt":"铁路道路铺设I11山地铺设工人","code":"I1105","lvl":"拒保","life":"标准"},
+            {"dt":"铁路道路铺设I11平地铺设工人","code":"I1106","lvl":"4","life":"标准"},
+            {"dt":"铁路道路铺设I11划线工人","code":"I1107","lvl":"4","life":"标准"},
+            {"dt":"铁路道路铺设I11维护工人","code":"I1108","lvl":"4","life":"标准"},
+            {"dt":"铁路道路铺设I11电线架设及维护工人","code":"I1109","lvl":"拒保","life":"标准"},
+            {"dt":"铁路道路铺设I11管道铺设机维护工人","code":"I1110","lvl":"4","life":"标准"},
+            {"dt":"铁路道路铺设I11高速 高架公路工程人员(含美化工程)","code":"I1111","lvl":"拒保","life":"标准"}
+        ]},
+        {"ct":"造修船业I12",
+        "d":[
+            {"dt":"造修船业I12工程师","code":"I1201","lvl":"3","life":"标准"},
+            {"dt":"造修船业I12领班,监工","code":"I1202","lvl":"4","life":"标准"},
+            {"dt":"造修船业I12工人","code":"I1203","lvl":"拒保","life":"2.5"},
+            {"dt":"造修船业I12行政内勤人员","code":"I1204","lvl":"1","life":"标准"}
+        ]},
+        {"ct":"电梯 升降梯I13",
+        "d":[
+        {"dt":"电梯 升降梯I13安装 修理及维护工人(非高空作业)","code":"I1401","lvl":"4","life":"标准"},
+        {"dt":"电梯 升降梯I13安装 修理及维护工人(高空作业)","code":"I1402","lvl":"拒保","life":"2.5"},
+        {"dt":"电梯 升降梯I13操作员(不含矿场使用者)","code":"I1403","lvl":"2","life":"标准"}
+        ]},
+        {"ct":"装潢业I14",
+        "d":[
+            {"dt":"装潢业I14设计制图人员","code":"I1401","lvl":"1","life":"标准"},
+            {"dt":"装潢业I14地毯铺置人员","code":"I1402","lvl":"2","life":"标准"},
+            {"dt":"装潢业I14室内装潢人员","code":"I1403","lvl":"4","life":"标准"},
+            {"dt":"装潢业I14室外装潢人员(非高空作业)","code":"I1404","lvl":"4","life":"标准"},
+            {"dt":"装潢业I14室外装潢人员(高空作业)","code":"I1405","lvl":"拒保","life":"2.5"},
+            {"dt":"装潢业I14承包商,监工","code":"I1406","lvl":"2","life":"标准"}
+        ]},
+        {"ct":"其他I15",
+        "d":[
+            {"dt":"地质探测员(山区 海上)","code":"I1501","lvl":"拒保","life":"标准"},
+            {"dt":"地质探测员(平地 不包括建筑工地)","code":"I1502","lvl":"2","life":"标准"},
+            {"dt":"工地看守员","code":"I1503","lvl":"4","life":"标准"},
+            {"dt":"海湾港口工程人员","code":"I1504","lvl":"拒保","life":"5"},
+            {"dt":"水利 桥梁 隧道 地铁工程人员","code":"I1505","lvl":"拒保","life":"5"},
+            {"dt":"潜水 爆破工作人员","code":"I1506","lvl":"拒保","life":"拒保"},
+            {"dt":"挖泥船工人","code":"I1507","lvl":"拒保","life":"拒保"}
+        ]}
+    ]}
+];
+
+
+    $(".beibaoren").each(function(){
+       var url = "";//"f:\\data.json";
+        var areaJson;
+        var temp_html;
+        var oProvince = $(this).find(".province");
+        var oCity = $(this).find(".city");
+        var oDistrict = $(this).find(".district");
+        //初始化省
+        var province = function(){
+            $.each(areaJson,function(i,province){
+                temp_html+="<option value='"+province.p+"'>"+province.p+"</option>";
+            });
+            oProvince.html(temp_html);
+            city();
+        };
+        //赋值市
+        var city = function(){
+            temp_html = ""; 
+            var n = oProvince.get(0).selectedIndex;
+            $.each(areaJson[n].c,function(n,city){
+                temp_html+="<option value='"+city.ct+"'>"+city.ct+"</option>";
+            });
+            oCity.html(temp_html);
+            district();
+        };
+        //赋值县
+        var district = function(){
+            temp_html = ""; 
+            var m = oProvince.get(0).selectedIndex;
+            var n = oCity.get(0).selectedIndex;
+            if(typeof(areaJson[m].c[n].d) == "undefined"){
+                oDistrict.css("display","none");
+            }else{
+                oDistrict.css("display","inline");
+                $.each(areaJson[m].c[n].d,function(n,district){
+                   // temp_html+="<option value='"+district.dt+"'>"+district.dt+"</option>";
+                    
+                    var t1 = " data-code='{\"key\":\""+district.code+"\"}'";
+                    var t2 = " data-lvl='{\"key\":\""+district.lvl+"\"}'";
+                    var t3 = " data-life='{\"key\":\""+district.life+"\"}'";
+                    
+                    temp_html+="<option value='"+district.dt+"'"+ t1+t2+t3  +">"+district.dt+"</option>";
+                                                             
+                });
+                oDistrict.html(temp_html);
+            };
+        };
+        //选择省改变市
+        oProvince.change(function(){
+            city();
+        });
+        //选择市改变县
+        oCity.change(function(){
+            district();
+        });
+        //获取json数据
+        //$.getJSON(url,function(data){
+            areaJson = data;
+            province();
+        //});
+    });
+    
+    
+    
+    $(".toubaoren").each(function(){
+       var url = "";//"f:\\data.json";
+        var areaJson;
+        var temp_html;
+        var oProvince = $(this).find(".province2");
+        var oCity = $(this).find(".city2");
+        var oDistrict = $(this).find(".district2");
+        //初始化省
+        var province = function(){
+            $.each(areaJson,function(i,province){
+                temp_html+="<option value='"+province.p+"'>"+province.p+"</option>";
+            });
+            oProvince.html(temp_html);
+            city();
+        };
+        //赋值市
+        var city = function(){
+            temp_html = ""; 
+            var n = oProvince.get(0).selectedIndex;
+            $.each(areaJson[n].c,function(n,city){
+                temp_html+="<option value='"+city.ct+"'>"+city.ct+"</option>";
+            });
+            oCity.html(temp_html);
+            district();
+        };
+        //赋值县
+        var district = function(){
+            temp_html = ""; 
+            var m = oProvince.get(0).selectedIndex;
+            var n = oCity.get(0).selectedIndex;
+            if(typeof(areaJson[m].c[n].d) == "undefined"){
+                oDistrict.css("display","none");
+            }else{
+                oDistrict.css("display","inline");
+                $.each(areaJson[m].c[n].d,function(n,district){
+                    //temp_html+="<option value='"+district.dt+"'>"+district.dt+"</option>";
+                    //temp_html+="<option value='"+district.dt+"' data-code='"+district.code+"' data-lvl='"+district.lvl+"' data-life='"+district.life+"'>"+district.dt+"</option>";
+                    
+                    var t1 = " data-code='{\"key\":\""+district.code+"\"}'";
+                    var t2 = " data-lvl='{\"key\":\""+district.lvl+"\"}'";
+                    var t3 = " data-life='{\"key\":\""+district.life+"\"}'";
+                    
+                    temp_html+="<option value='"+district.dt+"'"+ t1+t2+t3  +">"+district.dt+"</option>";
+
+                });
+                oDistrict.html(temp_html);
+            };
+        };
+        //选择省改变市
+        oProvince.change(function(){
+            city();
+        });
+        //选择市改变县
+        oCity.change(function(){
+            district();
+        });
+        //获取json数据
+        //$.getJSON(url,function(data){
+            areaJson = data;
+            province();
+        //});
+    });
+    
+    //职业下拉框改变
+    $("#jobThree").change(function(){
+        var code= $("#jobThree option:selected").data("code").key
+        var lvl = $("#jobThree option:selected").data("lvl").key
+        var life = $("#jobThree option:selected").data("life").key;
+        $("#j1").attr("placeholder", code);
+        $("#j2").attr("placeholder", lvl);
+        $("#j3").attr("placeholder", life);
+    });
+    
+    $("#jobThree2").change(function(){
+        var code= $("#jobThree2 option:selected").data("code").key
+        var lvl = $("#jobThree2 option:selected").data("lvl").key
+        var life = $("#jobThree2 option:selected").data("life").key;
+        $("#j4").attr("placeholder", code);
+        $("#j5").attr("placeholder", lvl);
+        $("#j6").attr("placeholder", life);
+    });
+   
+
+});
+</script>
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
